@@ -1,0 +1,15 @@
+﻿<Window x:Class="SortedListApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SortedListApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="keyTxt" HorizontalAlignment="Left" Height="91" Margin="34,36,0,0" TextWrapping="Wrap" Text="Key" VerticalAlignment="Top" Width="366"/>
+        <TextBox x:Name="valueTxt" HorizontalAlignment="Left" Height="91" Margin="34,0,0,0" TextWrapping="Wrap" Text="Value" VerticalAlignment="Center" Width="366"/>
+        <Button x:Name="addBtn" Content="Add" HorizontalAlignment="Left" Height="227" Margin="483,36,0,0" VerticalAlignment="Top" Width="270" Click="addBtn_Click"/>
+
+    </Grid>
+</Window>
